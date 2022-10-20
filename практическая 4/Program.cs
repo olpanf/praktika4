@@ -6,10 +6,10 @@
 
         static void Main(string[] args)
         {
-            Task firstTask = new Task(name: "first", description: "description", date: new DateTime(2022, 10, 20));
-            Task secondTask = new Task(name: "second", description: "description", date: new DateTime(2022, 10, 20));
-            Task thirdTask = new Task(name: "third", description: "description", date: new DateTime(2022, 10, 21));
-            Task fourthTask = new Task(name: "fourth", description: "description", date: new DateTime(2022, 10, 19));
+            Task firstTask = new Task(name: "полить цветы", description: "вечером", date: new DateTime(2022, 10, 20));
+            Task secondTask = new Task(name: "сходить к бабушке ", description: "утром", date: new DateTime(2022, 10, 20));
+            Task thirdTask = new Task(name: "сделать дз", description: "по всем предметам на неделю вперед", date: new DateTime(2022, 10, 21));
+            Task fourthTask = new Task(name: "отдохнуть", description: "обязательно!!!", date: new DateTime(2022, 10, 19));
 
             taskList.Add(firstTask);
             taskList.Add(secondTask);
